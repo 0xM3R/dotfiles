@@ -27,27 +27,6 @@ alias ips='ip a'
 alias ipa='ip a'
 
 export PYENV_ROOT="${HOME}/.pyenv"
-
-alias et-pull='eval $(docker-machine env default); docker pull ctfhacker/epictreasure'
-alias et='eval $(docker-machine env default); docker run -v /Users/cduplant/ctfs:/root/host-share --privileged -it --workdir=/root ctfhacker/epictreasure'
-alias et2='eval $(docker-machine env default); docker run -v /home/ctfhacker/ctfs:/root/host-share --privileged -it --workdir=/root ctfhacker/epictreasure2'
-
-alias moflow='eval $(docker-machine env default); docker run -v /home/ctfhacker/ctfs:/root/host-share --privileged -it --workdir=/moflow moflow/moflow-0.8'
-alias docker-restart='docker-machine restart default; eval $(docker-machine env default)'
-
-alias pbcopy='xclip -selection clipboard'
-alias pbpaste='xclip -selection clipboard -o'
-
-alias cgc='cd ~/ctfs/cgc; vagrant up; vagrant ssh'
-alias binja='cd ~/workspace/binaryninja; ./binaryninja'
-
-alias aws-personal='ssh -i ~/.znc.pem ubuntu@54.148.111.51'
-
-sf-fuzz(){
-    pushd /Users/cduplant/talos/devops/fuzzing-packer-vagrant/fuzz-ubu16; vagrant ssh fuzz$1; popd
-}
-
-
 export GOPATH=${HOME}/.go
 export GOROOT=${HOME}/go
 export PATH="$GOROOT/bin:$GOPATH/bin:$PATH"
