@@ -52,5 +52,6 @@ export LANGUAGE=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
-
+export PIN_ROOT=/home/vagrant/tools/pin-2.14-71313-gcc.4.4.7-linux
+export PATH=$PATH:$PIN_ROOT;
 source ~/.bashrc
