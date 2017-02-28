@@ -158,11 +158,6 @@ aliases = {
 };
 
 settings = {
-  core = {
-    real_name = "ctfhacker";
-    user_name = "ctfhacker";
-    nick = "ctfhacker";
-  };
   "fe-text" = { actlist_sort = "refnum"; };
   "fe-common/core" = {
     theme = "solarized-powerline";
