@@ -1,6 +1,4 @@
-[user]
-	name = thebarbershopper
-	email = cld251@gmail.com
+
 [alias]
     d = diff --word-diff
     s = status -s
