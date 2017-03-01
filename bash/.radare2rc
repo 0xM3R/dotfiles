@@ -1,3 +1,13 @@
 e asm.relsub = true
 e asm.cmtright = true
 # e asm.pseudo = true
+
+
+# change the default theme
+eco xvilka 
+
+# use utf8 arrows 
+e scr.utf8 = true 
+
+e scr.pipecolor = true
+e scr.pager = less -R
