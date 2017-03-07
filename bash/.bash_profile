@@ -28,7 +28,7 @@ alias ipa='ip a'
 
 export PYENV_ROOT="${HOME}/.pyenv"
 export GOPATH=${HOME}/.go
-export GOROOT=${HOME}/go
+export GOROOT=/usr/lib/go
 export PATH="$GOROOT/bin:$GOPATH/bin:$PATH"
 
 export WORKON_HOME=$HOME/.virtualenvs
